@@ -21,7 +21,7 @@ bool checkPrimeNumber(int number){
 
     //For odd numbers, the function checks divisibility from 3 up to the square root of the number (incrementing by 2 each time).
     for(int i=3;i<=sqrt(number);i += 2){
-        if(number % i){
+        if(number % i == 0){
             return false;
         }
     }
