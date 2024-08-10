@@ -26,8 +26,5 @@ int main() {
         cout<<"Your enter string is not palindrome..!";
     }
 
-
-
-
   return 0;
 }
