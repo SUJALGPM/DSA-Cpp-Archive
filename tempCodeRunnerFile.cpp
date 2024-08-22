@@ -1,1 +1,1 @@
-microseconds
+num
